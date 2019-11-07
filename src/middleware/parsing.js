@@ -1,5 +1,6 @@
 import { Resource } from '../Resource';
 import { encodeBinary } from '../encodeBinary';
+import { window } from 'pixi-browser-polyfill'
 
 const Url = window.URL || window.webkitURL;
 

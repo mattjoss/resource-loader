@@ -1,5 +1,6 @@
 import parseUri from 'parse-uri';
 import Signal from 'mini-signals';
+import { window } from 'pixi-browser-polyfill'
 
 // tests if CORS is supported in XHR, if not we need to use XDR
 const useXdr = !!(window.XDomainRequest && !('withCredentials' in (new XMLHttpRequest())));
