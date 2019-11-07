@@ -42,8 +42,7 @@
     "prepublish": "run-s build",
     "predeploy": "rimraf ./docs && run-s docs",
     "deploy": "gh-pages -d docs",
-    "postpublish": "npm run deploy",
-	"prepare": "npm run start"
+    "postpublish": "npm run deploy"
   },
   "dependencies": {
     "mini-signals": "^1.2.0",
