@@ -46,7 +46,8 @@
   },
   "dependencies": {
     "mini-signals": "^1.1.1",
-    "parse-uri": "^1.0.0"
+    "parse-uri": "^1.0.0",
+    "pixi-browser-polyfill": "https://github.com/mattjoss/pixi-browser-polyfill.git"
   },
   "devDependencies": {
     "@englercj/code-style": "^1.0.7",
